@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        form{
+            width: 300px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: bisque;
+            border-radius: 10px;
+            box-shadow: 0 0 10px red;
+        }
+        input,textarea,select{
+            width: 100%;
+            padding: none;
+            margin-bottom: 10px;
+            border: 1px red;
+            border-radius: 5px;
+        }
+        button{
+            background-color: rgb(38, 39, 35);
+            color: wheat;
+            padding: 1px;
+            width: 100%;
+            border-radius: 5px;
+        }
+        button.hover{
+            background-color:darkblue;
+
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <h2>contact us</h2>
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email">
+        <select>
+            <option>general</option>
+            <option>support</option>
+            <option>feedback</option>
+        </select>
+        <textarea rows="4" placeholder="your message"></textarea>
+        <br>
+        <button>submit</button>
+    </form>
+    
+</body>
+</html>
