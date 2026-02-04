@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <title>CSS Transitions</title> 
+  <style> 
+    .box { 
+      width: 100px; 
+      height: 100px; 
+      background-color: rgb(5, 1, 13); 
+      margin: 100px auto; 
+      transition: transform 1s, background-color 0.5s; 
+    } 
+    .box:hover { 
+      transform: rotate(360deg) scale(1); 
+      background-color: rgb(15, 69, 110); 
+    } 
+  </style> 
+</head> 
+<body> 
+  <div class="box"></div> 
+</body> 
+</html>
