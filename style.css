@@ -1,11 +1,36 @@
-        *{
-            text-decoration: none;
+h1{
+    text-align: center;
+    color:rgb(222, 29, 68) ;
+}
+h1::first-letter{
+    color: rgb(64, 30, 216);
+    font-size: 150%;
+}
+body{
+    background: linear-gradient(to right, rgb(90, 213, 172), rgb(161, 126, 203));
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 130px;
+    margin-left: 130px;
+    border-radius: 60px;
+}
+img{
+    width: 30%;
+    border-radius: 10px;
+    border: 10px solid black;
+    
+}.container{
 
-        }
-        .navbar{
-            background-color: crimson;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            padding-right: 15px;padding-left: 15px;
-        }
-        .navdiv{
-            display: flex; align-items: center;justify-content: space-between;
-        }
+    background-color: rgb(153, 66, 66);
+    display: flex;
+    border-radius: 60px;
+}
+.text{
+    list-style: square;
+
+}
+h3{
+    text-decoration: underline;
+    font-style: italic;
+    font-size: larger;
+}
