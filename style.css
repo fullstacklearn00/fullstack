@@ -27,6 +27,7 @@ img{
 }
 .text{
     list-style: square;
+    line-height: 50px;
 
 }
 h3{
